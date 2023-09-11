@@ -1,0 +1,34 @@
+2023-06-16 16:26:42,069 - INFO - Namespace(n_p=4, batch_size=1024, tool_dir='./tool_data/', out_dir='./toy_data/processed/', dirty_dir='./toy_data/processed', raw_dir='./toy_data/raw', specified_dataname=None, blacklist=None, regex=False, ns=None, no_utter_dup=False, re_name=False, split_multi_repost=False, no_ad=False, de_generic_dialog=False, de_reply_tag=False, de_hashtag=False, de_emotion=False, de_mention=False, de_repost=False, de_duplicated=False, de_emoji=False, no_short=False, no_long=False, no_special_topic=False, bert_clean=True, cleantext_clean=True, no_str_blacklist=True, no_toupiao=False, no_short_response=False, no_specific_utter=False, contain_zh=False, de_single_repost_mention=False, de_weibo_url=False, de_url=False, no_mention=False, de_angle=False, de_alpha_num=False, de_phone=True, de_qq=True, de_specific=False, de_html=False, de_showall=False, de_brackets=False, no_word_blacklist=False, no_alpha_noise=False, check_confuse_word=False, yda_dedupl=False)
+2023-06-16 16:26:42,069 - INFO - Preparing
+2023-06-16 16:26:42,102 - INFO - Totally 8 truncs
+2023-06-16 16:26:42,102 - INFO - Using blacklist file: black_str_vocab.txt
+2023-06-16 16:26:42,153 - INFO - Using AC: ac_FULL.pkl
+2023-06-16 16:26:42,153 - INFO - Using 110592 blocked words
+2023-06-16 16:26:42,169 - INFO - Cleaning start!
+2023-06-16 16:26:42,170 - INFO - Totally 8 files to clean: ('cc100_cn_50g.json', 'tbfull.json', 'cc100_tc_18g.json', 'books_cn.json', 'testdata.jsonl', 'testdata2.jsonl', 'testdata3.jsonl', 'testdata2.jsonl')
+2023-06-16 16:26:42,176 - INFO - cc100_cn_50g.json zjpdata total+lines= 8
+2023-06-16 16:26:42,242 - INFO - tbfull.json zjpdata total+lines= 8
+2023-06-16 16:26:42,251 - INFO - cc100_tc_18g.json zjpdata total+lines= 11
+2023-06-16 16:26:42,272 - INFO - books_cn.json zjpdata total+lines= 11
+2023-06-16 16:26:42,290 - INFO - testdata.jsonl test1 total+lines= 1001
+2023-06-16 16:26:42,298 - INFO - testdata2.jsonl test1 total+lines= 1000
+2023-06-16 16:26:42,304 - INFO - testdata3.jsonl test1 total+lines= 1
+2023-06-16 16:26:42,309 - INFO - testdata2.jsonl weibo_tang total+lines= 1016
+2023-06-16 16:26:42,615 - INFO - Start : zjpdata_cc100_cn_50g.json_trunc0
+2023-06-16 16:26:42,648 - INFO - zjpdata_cc100_cn_50g.json_trunc0  over [1/8]
+2023-06-16 16:26:42,679 - INFO - Start : zjpdata_tbfull.json_trunc0
+2023-06-16 16:26:42,725 - INFO - zjpdata_tbfull.json_trunc0  over [2/8]
+2023-06-16 16:26:42,752 - INFO - Start : zjpdata_cc100_tc_18g.json_trunc0
+2023-06-16 16:26:42,773 - INFO - zjpdata_cc100_tc_18g.json_trunc0  over [3/8]
+2023-06-16 16:26:42,803 - INFO - Start : zjpdata_books_cn.json_trunc0
+2023-06-16 16:26:42,853 - INFO - zjpdata_books_cn.json_trunc0  over [4/8]
+2023-06-16 16:26:42,871 - INFO - Start : test1_testdata_trunc0
+2023-06-16 16:26:42,927 - INFO - Start : test1_testdata2_trunc0
+2023-06-16 16:26:43,000 - INFO - Start : test1_testdata3_trunc0
+2023-06-16 16:26:43,019 - INFO - test1_testdata3_trunc0  over [7/8]
+2023-06-16 16:26:43,054 - INFO - Start : weibo_tang_testdata2_trunc0
+2023-06-16 16:26:43,103 - INFO - test1_testdata_trunc0  over [5/8]
+2023-06-16 16:26:43,172 - INFO - test1_testdata2_trunc0  over [6/8]
+2023-06-16 16:26:43,288 - INFO - weibo_tang_testdata2_trunc0  over [8/8]
+2023-06-16 16:26:43,331 - INFO - Cleaning over!
+END: Total time= 1.16s
